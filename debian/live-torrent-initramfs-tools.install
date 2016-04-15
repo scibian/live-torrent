@@ -1,0 +1,2 @@
+hooks/live-torrent usr/share/initramfs-tools/hooks/ 
+scripts/remove-orig.sh usr/share/initramfs-tools/scripts/init-top

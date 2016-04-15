@@ -1,0 +1,37 @@
+#!/bin/sh
+set -e
+. /usr/share/initramfs-tools/hook-functions
+
+echo -n 'live-torrent:' 
+
+# Program: ctorrent
+if [ -x /usr/bin/ctorrent ]
+then
+	echo -n ' ctorrent'
+	copy_exec /usr/bin/ctorrent /bin
+fi
+
+# Program: xget
+if [ -x /usr/sbin/xget ]
+then
+        echo -n ' xget'
+        copy_exec /usr/sbin/xget /bin
+fi
+
+# Program: mkfs.ext4
+if [ -x /sbin/mkfs.ext4 ]
+then
+        echo -n ' mkfs.ext4'
+        copy_exec /sbin/mkfs.ext4 /bin
+fi
+
+# Program: ntpdate
+if [ -x /usr/sbin/ntpdate ]
+then
+        echo -n ' ntpdate'
+        copy_exec /usr/sbin/ntpdate /bin
+fi
+
+
+echo '.'
+exit 0

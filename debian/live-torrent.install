@@ -1,0 +1,3 @@
+boot/9990-cmdline-old lib/live/boot 
+boot/9990-mount-http.sh lib/live/boot
+boot/9990-overlay.sh lib/live/boot

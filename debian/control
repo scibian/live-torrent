@@ -1,0 +1,29 @@
+Source: live-torrent
+Section: misc
+Priority: optional
+Maintainer: Antonio J. Russo <antonio-externe.russo@edf.fr>
+Uploaders: Antonio J. Russo <antonio-externe.russo@edf.fr>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: https://github.com/edf-hpc/live-torrent
+Vcs-Git: git://github.com/edf-hpc/live-torrent.git
+
+Package: live-torrent
+Architecture: all
+Depends: ${misc:Depends}, live-torrent-initramfs-tools 
+Description: Torrent support for Live System Boot Scripts
+ live-torrent contains a patch for the scripts provides by live-boot. This 
+ patch adds support for downloading images via p2p network.
+ .
+ In addition to live-torrent, a backend for the initrd generation is required, such
+ as live-boot-initramfs-tools.
+
+Package: live-torrent-initramfs-tools
+Architecture: all
+Depends:
+ ${misc:Depends}, ctorrent, patch, live-boot, mdadm, ntpdate 
+Description: Torrent support for Live System Boot Scripts (initramfs-tools backend)
+ live-torrent contains a patch for the scripts provides by live-boot. This
+ patch adds support for downloading images via p2p network.
+ .
+ This package contains the initramfs-tools backend.
