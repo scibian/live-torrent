@@ -3,6 +3,11 @@ Upstream-Name: live-torrent
 Upstream-Contact: Antonio J. Russo <antonio-externe.russo@edf.fr>
 Source: https://github.com/edf-hpc/live-torrent
 
+Files: debian/*
+Copyright: 2014 EDF <http://www.edf.fr>
+           2017 Scibian Project <legal@scibian.org>
+License: GPL-3+
+
 Files: *
 Copyright: 2014 EDF <http://www.edf.fr>
 License: GPL-3+

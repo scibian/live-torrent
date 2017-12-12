@@ -1,12 +1,13 @@
 Source: live-torrent
 Section: misc
 Priority: optional
-Maintainer: Antonio J. Russo <antonio-externe.russo@edf.fr>
+Maintainer: Scibian Project <packaging@scibian.org>
 Uploaders: Antonio J. Russo <antonio-externe.russo@edf.fr>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.4
 Homepage: https://github.com/edf-hpc/live-torrent
-Vcs-Git: git://github.com/edf-hpc/live-torrent.git
+Vcs-Git: https://github.com/scibian/live-torrent.git
+Vcs-Browser: https://github.com/scibian/live-torrent
 
 Package: live-torrent
 Architecture: all
