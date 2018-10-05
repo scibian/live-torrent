@@ -1,3 +1,9 @@
+live-torrent (0.1.9sci8u1) scibian8; urgency=medium
+
+  * add overlayfs support for calibre9 
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Thu, 04 Oct 2018 13:41:50 +0200
+
 live-torrent (0.1.8sci8u1) scibian8; urgency=medium
 
   * Scibian8 rebuild.
