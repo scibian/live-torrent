@@ -19,6 +19,7 @@ case "$1" in
     dpkg-divert --package live-torrent --rename --remove /lib/live/boot/9990-cmdline-old
     dpkg-divert --package live-torrent --rename --remove /lib/live/boot/9990-mount-http.sh
     dpkg-divert --package live-torrent --rename --remove /lib/live/boot/9990-overlay.sh
+    dpkg-divert --package live-torrent --rename --remove /lib/live/boot/9990-netbase.sh
   ;;
   upgrade|failed-upgrade|abort-upgrade)
   ;;
