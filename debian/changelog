@@ -1,3 +1,9 @@
+live-torrent (0.2.0sci9u1) scibian9; urgency=medium
+
+  * Overwrite 9990-netbase.sh to restrict ethdevices
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Mon, 08 Oct 2018 11:08:33 +0200
+
 live-torrent (0.1.8sci9u1) scibian9; urgency=medium
 
   * Scibian9 Release.
