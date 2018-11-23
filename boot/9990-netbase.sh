@@ -105,7 +105,7 @@ EOF
 					i="$(basename ${interface})"
 
 cat >> "${IFFILE}" << EOF
-allow-hotplug ${i}
+auto ${i}
 iface ${i} inet ${method}
 
 EOF
@@ -116,7 +116,7 @@ EOF
 				for device in $(echo $ETHDEVICE | sed 's/,/ /g')
 				do
 cat >> "${IFFILE}" << EOF
-allow-hotplug ${device}
+auto ${device}
 iface ${device} inet ${method}
 
 EOF
