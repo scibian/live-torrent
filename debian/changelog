@@ -1,4 +1,4 @@
-live-torrent (0.2.0sci9u2) scibian9; urgency=medium
+live-torrent (0.2.1sci9u1) scibian9; urgency=medium
 
   * Set the network interfaces in auto mode
 
