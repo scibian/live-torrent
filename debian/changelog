@@ -1,3 +1,9 @@
+live-torrent (0.2.0sci9u2) scibian9; urgency=medium
+
+  * Set the network interfaces in auto mode
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Fri, 23 Nov 2018 11:09:48 +0100
+
 live-torrent (0.2.0sci9u1) scibian9; urgency=medium
 
   * Overwrite 9990-netbase.sh to restrict ethdevices
